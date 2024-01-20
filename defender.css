@@ -1,0 +1,407 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    overflow-x: hidden;
+    
+
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #f9f6f6;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    border: 1px solid #d5d4d4;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #080808;
+    text-align: center;
+    padding: 28px 20px;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.navbar a:hover {
+    background: #ddd;
+    color: black;
+}
+
+.retailers {
+    position: fixed;
+    left: 84%;
+}
+
+.builds {
+    position: fixed;
+    left: 93%;
+}
+
+.rangerover {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    position: fixed;
+    top: 22px;
+    left: 43.9%;
+}
+
+.video1 {
+    margin: 4% 4%;
+    display: block;
+    height: 30%;
+    width: 92%;
+}
+
+.videotext {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 35px;
+    text-decoration: none;
+    color: black;
+    display: block;
+    position: relative;
+    left: 3.9%;
+    top: -30px;
+}
+
+.container a:hover {
+    filter: brightness(0.7);
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin: 4% 4%;
+   
+}
+
+.container img {
+    width: 5% 
+    height: auto;
+}
+
+.container p {
+    margin-top:8%;
+    text-decoration:none;
+    color: black; 
+
+    
+}
+.secondcontainer {
+    display: flex;
+    gap:30.3%;
+    margin: 0% 4%;
+    font-size: 13px; 
+    
+}
+
+
+.img1{
+    text-decoration: none;
+    color: #080808;
+}
+
+.img2{
+  
+  text-decoration: none;
+  color:#080808
+   
+}
+.img1:hover{
+    box-shadow:0px 0px 100px #51fdec;
+    cursor:pointer;
+    text-decoration: underline;
+}
+.img2:hover{
+    box-shadow:0px 0px 100px #01ffd5;
+    cursor:pointer;
+    text-decoration: underline;
+}
+.thirdcontainer {
+    display: flex;
+    gap:26.3%;
+    margin: 2% 4%;
+    font-size: 13px; 
+    margin-bottom: 6%;
+}
+.img3{
+    text-decoration: none;
+  color:#080808;
+  
+}
+.img3:hover{
+    text-decoration: underline;
+}
+.content1{
+    margin-left:5%;
+}
+.content1p{
+    margin:4% 5%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    font-weight:bold;
+    
+}
+.content1p2{
+    display:flex;
+    font-size:20px;
+    margin:0% 5%;
+    position: relative;
+    top:-30px;
+    color: #575656;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.content1a{
+    display:flex;
+    border:1px #080808 solid;
+    height:17px;
+    width:100px;
+    padding:1% 1.5%;
+    margin:0% 5%;
+    justify-content: center;
+    background-color: #080808;
+    color: white;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.content1a:hover{
+    background-color: white;
+    color: #080808;
+    width:150px;
+}
+.content1img{
+    margin:0% 5%;
+    text-decoration: none;
+    color: #080808;
+    font-size: 13px;
+    
+}
+.content1img:hover{
+    text-decoration: underline;
+}
+.content2{
+    margin-left:5%;
+    margin-top:5% ;
+}
+.contenttext1 {
+    font-size: 12px;
+    padding-top: 1%;
+    position: absolute;
+    left: 3%;
+}
+.contenttext1 a{
+    text-decoration: none;
+    color:#080808;
+}
+.contenttext1 p{
+    margin-top:4.6%;
+}
+.contenttext1 p:hover{
+    text-decoration: underline;
+}
+.contenttext2 {
+    font-size: 12px;
+    position: absolute;
+    left: 28%;
+    padding-top: 1%;
+}
+.contenttext2 a{
+    text-decoration: none;
+    color:#080808;
+}
+.contenttext2 p{
+    margin-top:4.6%;
+}
+.contenttext2 p:hover{
+    text-decoration: underline;
+}
+.contenttext3 {
+    font-size: 12px;
+    position: absolute;
+    left: 51%;
+    padding-top: 1%;
+}
+.contenttext3 a{
+    text-decoration: none;
+    color:#080808;
+}
+.contenttext3 p{
+    margin-top:4.6%;
+}
+.contenttext3 p:hover{
+    text-decoration: underline;
+}
+.media {
+    position: absolute;
+    left: 74%;
+    font-size: 15px;
+    margin-top: 1em;
+}
+.facebook {
+    position: absolute;
+    left: 74%;
+    margin-top: 3em;
+    filter: grayscale(100%);
+
+}
+
+.x {
+    position: absolute;
+    left: 74%;
+    margin-top: 7em;
+    filter: grayscale(97%);
+}
+
+.youtube {
+    position: absolute;
+    left: 74%;
+    margin-top: 11em;
+    filter: grayscale(100%);
+}
+
+.instagram {
+    position: absolute;
+    left: 74%;
+    margin-top: 15em;
+    filter: grayscale();
+}
+
+.facebooktext {
+    display: flex;
+    position: absolute;
+    left: 77.9%;
+    margin-top: 6.6em;
+    font-size: 10px;
+    color: #080808;
+}
+
+.xtext {
+    position: absolute;
+    left: 77.9%;
+    margin-top: 13em;
+    font-size: 10px;
+    color: #080808;
+}
+
+.youtubetext {
+    position: absolute;
+    left: 77.9%;
+    margin-top: 19em;
+    font-size: 10px;
+    color: #080808;
+}
+
+.instagramtext {
+    position: absolute;
+    left: 77.9%;
+    margin-top: 26em;
+    font-size: 10px;
+    color: #080808;
+}
+.facebook:hover {
+    filter: grayscale(0%);
+}
+
+.x:hover {
+    filter: grayscale(0%);
+}
+
+.youtube:hover {
+    filter: grayscale(0%);
+}
+
+.instagram:hover {
+    filter: grayscale(0%);
+}
+.hr {
+    position: absolute;
+    top: px;
+    left: 40px;
+    font-size: 13px;
+    margin-top: 17px;
+    cursor: pointer;
+}
+
+.term {
+    position: absolute;
+    top: px;
+    left: 210px;
+    font-size: 13px;
+    margin-top: 17px;
+    cursor: pointer;
+}
+
+.contact {
+    position: absolute;
+    top: px;
+    left: 420px;
+    font-size: 13px;
+    margin-top: 17px;
+    cursor: pointer;
+}
+
+.privacy {
+    position: absolute;
+    top: px;
+    left: 590px;
+    font-size: 13px;
+    margin-top: 17px;
+    cursor: pointer;
+}
+.hr:hover{
+    text-decoration: underline;
+}
+.term:hover{
+    text-decoration: underline;
+}
+.privacy:hover{
+    text-decoration: underline;
+}
+.contact:hover{
+    text-decoration: underline;
+}
+@media only screen and (max-width:1024px) and (min-width:1022px) {
+    .facebooktext {
+        position: absolute;
+        left: 78%;
+    }
+
+    .xtext {
+        position: absolute;
+        left: 78%;
+    }
+
+    .youtubetext {
+        position: absolute;
+        left: 78%;
+    }
+
+    .instagramtext {
+        position: absolute;
+        left: 78%;
+    }
+}
+@media only screen and (max-width:1022px) {
+.facebooktext {
+    position: absolute;
+    left: 78%;
+}
+
+.xtext {
+    position: absolute;
+    left: 78%;
+}
+
+.youtubetext {
+    position: absolute;
+    left: 78%;
+}
+
+.instagramtext {
+    position: absolute;
+    left: 78%;
+}
+}
