@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        .slider {
+            width: 100%;
+            height: 300px;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .slide {
+            display: none;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+        }
+
+        .slide video {
+            width: 100%;
+            height: 100%;
+        }
+
+        .slide.active {
+            display: block;
+            animation: fade 3s;
+        }
+
+        @keyframes fade {
+            0% {
+                opacity: 0;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="slider">
+        <div class="slide active">
+            <video src="LR_DX_RangeRover_Flares_1920x1080_6___prores_190423_1.webm" autoplay loop muted></video>
+        </div>
+        <div class="slide">
+            <video src="L46025-5MYGL_303103139_DX_LOOP_TALENT_HDH264_6_16x9_carousel.webm" autoplay loop muted></video>
+        </div>
+        <!-- Add more slides as needed -->
+    </div>
+
+    <script>
+        var slides = document.querySelectorAll('.slide');
+        var currentSlide = 0;
+        var slideInterval = setInterval(nextSlide, 8000); // Change slide every 5 seconds
+
+        function nextSlide() {
+            slides[currentSlide].className = 'slide';
+            currentSlide = (currentSlide + 1) % slides.length;
+            slides[currentSlide].className = 'slide active';
+        }
+    </script>
+
+</body>
+
+</html>
